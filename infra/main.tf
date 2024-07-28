@@ -66,6 +66,7 @@ module "alb" {
 module "hosted_zone" {
   source          = "./hosted-zone"
   domain_name     = var.domain_name
+  hosted_zone_id = var.hosted_zone_id
   aws_lb_dns_name = module.alb.aws_lb_dns_name
   aws_lb_zone_id  = module.alb.aws_lb_zone_id
 }

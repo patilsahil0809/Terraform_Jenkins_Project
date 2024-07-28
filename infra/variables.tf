@@ -57,3 +57,9 @@ variable "domain_name" {
   type = string
   description = "Name of the domain"
 }
+
+variable "hosted_zone_id" {
+  description = "The ID of the Route 53 hosted zone"
+  type        = string
+}
+
