@@ -13,4 +13,6 @@ ec2_ami_id     = "ami-06dd92ecc74fdfb36"
 
 ec2_user_data_install_apache = ""
 
-domain_name = "jhooq.org"
+domain_name = "vilarigato.lol "
+
+hosted_zone_id = "Z07584903PM0KD5RJ2WUU"
